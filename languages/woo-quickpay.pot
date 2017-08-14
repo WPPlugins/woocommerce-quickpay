@@ -1,0 +1,722 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce QuickPay\n"
+"POT-Creation-Date: 2017-04-07 14:40+0200\n"
+"PO-Revision-Date: 2016-06-21 13:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-quickpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/api/woocommerce-quickpay-api-transaction.php:62
+msgid "Pending - check your QuickPay manager"
+msgstr ""
+
+#: classes/base/woocommerce-quickpay-base-order.php:181
+msgid "Payment Fee"
+msgstr ""
+
+#: classes/base/woocommerce-quickpay-base-order.php:381
+msgid "Shipping"
+msgstr ""
+
+#: classes/base/woocommerce-quickpay-base-order.php:592
+msgid "Customer Email"
+msgstr ""
+
+#: classes/base/woocommerce-quickpay-base-order.php:597
+msgid "Customer Phone"
+msgstr ""
+
+#: classes/base/woocommerce-quickpay-base-order.php:602
+msgid "User Agent"
+msgstr ""
+
+#: classes/base/woocommerce-quickpay-base-order.php:607
+msgid "Shipping Method"
+msgstr ""
+
+#: classes/instances/instance.php:57
+#, php-format
+msgid "Allows you to receive payments via QuickPay %s."
+msgstr ""
+
+#: classes/instances/instance.php:58
+msgid "This module has it's main configuration inside the 'QuickPay' tab."
+msgstr ""
+
+#: classes/instances/instance.php:59
+#, php-format
+msgid "Click <a href=\"%s\">here</a> to access the main configuration."
+msgstr ""
+
+#: classes/instances/klarna.php:36 classes/instances/mobilepay.php:36
+#: classes/instances/sofort.php:36 classes/instances/viabill.php:36
+#: classes/woocommerce-quickpay-settings.php:26
+#: classes/woocommerce-quickpay-settings.php:56
+#: classes/woocommerce-quickpay-settings.php:64
+#: classes/woocommerce-quickpay-settings.php:90
+#: classes/woocommerce-quickpay-settings.php:147
+#: classes/woocommerce-quickpay-settings.php:155
+#: classes/woocommerce-quickpay-settings.php:260
+#: classes/woocommerce-quickpay-settings.php:295
+#: classes/woocommerce-quickpay-settings.php:341
+msgid "Enable"
+msgstr ""
+
+#: classes/instances/klarna.php:38
+msgid "Enable Klarna payment"
+msgstr ""
+
+#: classes/instances/klarna.php:43 classes/instances/mobilepay.php:43
+#: classes/instances/sofort.php:43 classes/instances/viabill.php:43
+#: classes/woocommerce-quickpay-settings.php:174
+msgid "Shop setup"
+msgstr ""
+
+#: classes/instances/klarna.php:46 classes/instances/mobilepay.php:46
+#: classes/instances/sofort.php:46 classes/instances/viabill.php:46
+#: classes/woocommerce-quickpay-settings.php:177
+msgid "Title"
+msgstr ""
+
+#: classes/instances/klarna.php:48 classes/instances/mobilepay.php:48
+#: classes/instances/sofort.php:48 classes/instances/viabill.php:48
+#: classes/woocommerce-quickpay-settings.php:179
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/instances/klarna.php:49
+msgid "Klarna"
+msgstr ""
+
+#: classes/instances/klarna.php:52 classes/instances/mobilepay.php:52
+#: classes/instances/sofort.php:52 classes/instances/viabill.php:52
+#: classes/woocommerce-quickpay-settings.php:184
+msgid "Customer Message"
+msgstr ""
+
+#: classes/instances/klarna.php:54 classes/instances/mobilepay.php:54
+#: classes/instances/sofort.php:54 classes/instances/viabill.php:54
+#: classes/woocommerce-quickpay-settings.php:186
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: classes/instances/klarna.php:55
+msgid "Pay with Klarna"
+msgstr ""
+
+#: classes/instances/mobilepay.php:38
+msgid "Enable MobilePay payment"
+msgstr ""
+
+#: classes/instances/mobilepay.php:49
+msgid "MobilePay"
+msgstr ""
+
+#: classes/instances/mobilepay.php:55 classes/instances/sofort.php:55
+msgid "Pay with your mobile phone"
+msgstr ""
+
+#: classes/instances/sofort.php:38
+msgid "Enable Sofort payment"
+msgstr ""
+
+#: classes/instances/sofort.php:49
+msgid "Sofort"
+msgstr ""
+
+#: classes/instances/viabill.php:38
+msgid "Enable ViaBill payment"
+msgstr ""
+
+#: classes/instances/viabill.php:49
+msgid "ViaBill"
+msgstr ""
+
+#: classes/instances/viabill.php:55
+msgid "Pay with ViaBill"
+msgstr ""
+
+#: classes/woocommerce-quickpay-exceptions.php:81
+#, php-format
+msgid ""
+"An error occured. For more information check out the <strong>%s</strong> "
+"logs inside <strong>WooCommerce -> System Status -> Logs</strong>."
+msgstr ""
+
+#: classes/woocommerce-quickpay-install.php:156
+msgid "You are not authorized to perform this action"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:28
+msgid "Enable QuickPay Payment"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:34
+msgid "API - Integration"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:38
+#: classes/woocommerce-quickpay-settings.php:362
+msgid "Private key"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:40
+msgid ""
+"Your agreement private key. Found in the \"Integration\" tab inside the "
+"QuickPay manager."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:44
+#: classes/woocommerce-quickpay-settings.php:363
+msgid "Api User key"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:46
+msgid ""
+"Your API User's key. Create a separate API user in the \"Users\" tab inside "
+"the QuickPay manager."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:51
+msgid "Autocapture settings"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:54
+msgid "Physical products (default)"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:57
+msgid "Automatically capture payments on physical products."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:62
+msgid "Virtual products"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:65
+msgid ""
+"Automatically capture payments on virtual products. If the order contains "
+"both physical and virtual products, this setting will be overwritten by the "
+"default setting above."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:71
+msgid "Currency settings"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:74
+msgid "Fixed Currency"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:75
+msgid ""
+"Choose a fixed currency. Please make sure to use the same currency as in "
+"your WooCommerce currency settings."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:88
+msgid "Auto Currency"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:91
+msgid ""
+"Automatically checks out with the order currency. This setting overwrites "
+"the \"Fixed Currency\" setting."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:97
+msgid "Extra gateway settings"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:100
+msgid "Language"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:101
+msgid "Payment Window Language"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:117
+msgid "Currency"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:118
+msgid ""
+"Choose your currency. Please make sure to use the same currency as in your "
+"WooCommerce currency settings."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:131
+msgid "Payment methods"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:133
+msgid ""
+"Default: creditcard. Type in the cards you wish to accept (comma separated). "
+"See the valid payment types here: <b>http://tech.quickpay.net/appendixes/"
+"payment-methods/</b>"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:137
+msgid "Branding ID"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:139
+msgid "Leave empty if you have no custom branding options"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:145
+msgid "Enable autofee"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:148
+msgid ""
+"If enabled, the fee charged by the acquirer will be calculated and added to "
+"the transaction amount."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:153
+msgid "Capture on complete"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:156
+msgid ""
+"When enabled quickpay payments will automatically be captured when order "
+"state is set to \"Complete\"."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:161
+msgid "Text on statement"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:163
+msgid ""
+"Text that will be placed on cardholder’s bank statement (currently only "
+"supported by Clearhaus)."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:180
+msgid "QuickPay"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:187
+msgid "Pay via QuickPay. Allows you to pay with your credit card via QuickPay."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:191
+msgid "Order button text"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:193
+msgid "Text shown on the submit button when choosing payment method."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:194
+msgid "Go to payment"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:198
+msgid "Email instructions"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:200
+msgid "Instructions that will be added to emails."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:205
+msgid "Credit card icons"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:207
+msgid ""
+"Choose the card icons you wish to show next to the QuickPay payment option "
+"in your shop."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:212
+msgid "Select icons"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:235
+msgid "Credit card icons maximum height"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:237
+msgid ""
+"Set the maximum pixel height of the credit card icons shown on the frontend."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:243
+msgid "Google Analytics"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:246
+msgid "Tracking ID"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:248
+msgid "Your Google Analytics tracking ID. Digits only."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:254
+msgid "Shop Admin Setup"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:258
+msgid "Fetch Transaction Info"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:261
+msgid "Show transaction information in the order overview."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:268
+msgid "Custom Variables"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:271
+msgid "Select Information"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:276
+msgid ""
+"Selected options will store the specific data on your transaction inside "
+"your QuickPay Manager."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:280
+msgid "Select order data"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:293
+msgid "Complete renewal orders"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:296
+msgid ""
+"Automatically mark a renewal order as complete on successful recurring "
+"payments."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:317
+msgid "Billing: Complete Customer Details"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:318
+msgid "Browser: User Agent"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:319
+msgid "Customer: Email Address"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:320
+msgid "Customer: Phone Number"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:321
+msgid "Shipping: Complete Customer Details"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:322
+msgid "Shipping: Shipping Method"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:336
+msgid "Debug"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:337
+msgid "Got problems? Check out the Wiki."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:338
+msgid "View debug logs"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:339
+msgid "Empty debug logs"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: classes/woocommerce-quickpay-settings.php:373
+msgid "WooCommerce QuickPay"
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:374
+#, php-format
+msgid ""
+"You have missing or incorrect settings. Go to the <a href=\"%s\">settings "
+"page</a>."
+msgstr ""
+
+#: classes/woocommerce-quickpay-settings.php:377
+#, php-format
+msgid "<strong>%s</strong> is mandatory."
+msgstr ""
+
+#: classes/woocommerce-quickpay-subscription.php:68
+msgid ""
+"Automatically completing order status due to succesful recurring payment"
+msgstr ""
+
+#: views/bulk-actions.php:3
+msgid "Capture payment and activate subscription"
+msgstr ""
+
+#: views/html-notice-update.php:12 views/html-notice-upgrading.php:12
+msgid "WooCommerce QuickPay - Data Update"
+msgstr ""
+
+#: views/html-notice-update.php:13
+msgid ""
+"To ensure you get the best experience at all times, we need to update your "
+"store's database to the latest version."
+msgstr ""
+
+#: views/html-notice-update.php:14
+msgid "Run the updater"
+msgstr ""
+
+#: views/html-notice-update.php:19
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: views/html-notice-update.php:30 views/html-notice-upgrading.php:13
+msgid ""
+"The upgrader is now running. This might take a while. The notice will "
+"disappear once the upgrade is complete."
+msgstr ""
+
+#: woocommerce-quickpay.php:29
+msgid "WooCommerce QuickPay requires WooCommerce to be active."
+msgstr ""
+
+#: woocommerce-quickpay.php:30
+msgid "Go to the plugins page to activate WooCommerce"
+msgstr ""
+
+#: woocommerce-quickpay.php:278
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-quickpay.php:372 woocommerce-quickpay.php:1233
+msgid "subscription"
+msgstr ""
+
+#: woocommerce-quickpay.php:375
+msgid "initial order transaction ID"
+msgstr ""
+
+#: woocommerce-quickpay.php:376
+msgid "Failed renewal"
+msgstr ""
+
+#: woocommerce-quickpay.php:385
+msgid "Test transaction"
+msgstr ""
+
+#: woocommerce-quickpay.php:390
+#, php-format
+msgid "Transaction ID: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:393
+#, php-format
+msgid "Transaction Order ID: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:396
+#, php-format
+msgid "Transaction state: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:669
+#, php-format
+msgid "No transaction ID for order: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:678
+msgid "Transaction state does not allow refunds."
+msgstr ""
+
+#: woocommerce-quickpay.php:886
+msgid ""
+"<p><strong>Payment failure</strong> A problem with your payment on order "
+"<strong>#%i</strong> occured. Please try again to complete your order.</p>"
+msgstr ""
+
+#: woocommerce-quickpay.php:893 woocommerce-quickpay.php:1132
+msgid "QuickPay Payment"
+msgstr ""
+
+#: woocommerce-quickpay.php:893
+msgid "Cancelled during process"
+msgstr ""
+
+#: woocommerce-quickpay.php:896
+msgid "Payment cancelled"
+msgstr ""
+
+#: woocommerce-quickpay.php:897
+msgid ""
+"Due to cancellation of your payment, the order process was not completed. "
+"Please fulfill the payment to complete your order."
+msgstr ""
+
+#: woocommerce-quickpay.php:895
+#, php-format
+msgid "<p><strong>%s</strong>: %s</p>"
+msgstr ""
+
+#: woocommerce-quickpay.php:955
+msgid "Payment cancelled."
+msgstr ""
+
+#: woocommerce-quickpay.php:960
+msgid "Payment captured."
+msgstr ""
+
+#: woocommerce-quickpay.php:964
+#, php-format
+msgid "Refunded %s %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:980
+#, php-format
+msgid "Subscription authorized. Transaction ID: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:1022
+#, php-format
+msgid "An error occured while setting transaction id: %d on order %s. %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:1032
+#, php-format
+msgid "Payment authorized. Transaction ID: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:1049
+#, php-format
+msgid "Transaction failed for #%s."
+msgstr ""
+
+#: woocommerce-quickpay.php:1050
+#, php-format
+msgid "QuickPay status code: %s."
+msgstr ""
+
+#: woocommerce-quickpay.php:1051
+#, php-format
+msgid "QuickPay status message: %s."
+msgstr ""
+
+#: woocommerce-quickpay.php:1052
+#, php-format
+msgid "Acquirer status code: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:1053
+#, php-format
+msgid "Acquirer status message: %s"
+msgstr ""
+
+#: woocommerce-quickpay.php:1070
+#, php-format
+msgid "Invalid callback body for order #%s."
+msgstr ""
+
+#: woocommerce-quickpay.php:1100
+msgid "Allows you to receive payments via QuickPay."
+msgstr ""
+
+#: woocommerce-quickpay.php:1133
+msgid "QuickPay Subscription"
+msgstr ""
+
+#: woocommerce-quickpay.php:1159 woocommerce-quickpay.php:1235
+msgid "Current payment state"
+msgstr ""
+
+#: woocommerce-quickpay.php:1162
+msgid "Actions"
+msgstr ""
+
+#: woocommerce-quickpay.php:1166 woocommerce-quickpay.php:1173
+msgid "You are about to CAPTURE this payment"
+msgstr ""
+
+#: woocommerce-quickpay.php:1166
+#, php-format
+msgid "Capture Full Amount (%s)"
+msgstr ""
+
+#: woocommerce-quickpay.php:1169
+msgid "Remaining balance"
+msgstr ""
+
+#: woocommerce-quickpay.php:1170
+msgid "Capture amount"
+msgstr ""
+
+#: woocommerce-quickpay.php:1173
+msgid "Capture Specified Amount"
+msgstr ""
+
+#: woocommerce-quickpay.php:1178
+msgid "You are about to CANCEL this payment"
+msgstr ""
+
+#: woocommerce-quickpay.php:1178
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce-quickpay.php:1185 woocommerce-quickpay.php:1238
+msgid "Transaction ID"
+msgstr ""
+
+#: woocommerce-quickpay.php:1192 woocommerce-quickpay.php:1245
+msgid "Transaction Order ID"
+msgstr ""
+
+#: woocommerce-quickpay.php:1204
+msgid "Payment ID"
+msgstr ""
+
+#: woocommerce-quickpay.php:1209
+msgid "Payment Link"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/woocommerce-quickpay/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Integrates your QuickPay payment gateway into your WooCommerce installation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Perfect Solution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://perfect-solution.dk"
+msgstr ""
